@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-blog",
+  "version": "1.0.0",
+  "description": "My primo Nuxt.js project",
+  "author": "David Broadlick",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt build --target static && nuxt export",
+    "generate-prod": "nuxt build --target static && nuxt export --fail-on-error"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}

@@ -2,17 +2,13 @@
   <div class="container">
     <div>
       <h1 class="title">
-        Nuxt Blog Page
+        {{ title }}
       </h1>
-      <div>
-          {{ title }}
-      </div>
     </div>
   </div>
 </template>
 
 <script>
-
 import mockApi from '~/mock-api/blog-pages.js';
 
 export default {

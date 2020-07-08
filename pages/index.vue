@@ -3,11 +3,8 @@
     <div>
       <logo />
       <h1 class="title">
-        Nuxt Site
-      </h1>
-      <h2 class="subtitle">
         Building Failure Into A Nuxt Site
-      </h2>
+      </h1>
     </div>
   </div>
 </template>

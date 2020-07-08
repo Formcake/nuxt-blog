@@ -5,3 +5,4 @@
 ## Generate With Proper Failure
 
 `nuxt build --target static && nuxt export --fail-on-error`
+
